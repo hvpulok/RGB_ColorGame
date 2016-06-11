@@ -33,7 +33,7 @@ for(var j=0; j < squares.length; j++){
 		if (pickedColor==selectedColor) {
 			console.log("===========Correct Selection==========");
 			changeColorToPicked();
-			gameStatus.textContent = "Winner";
+			gameStatus.textContent = "Correct!";
 			btnNewColors.textContent = "Play Again";
 		}
 		else{
