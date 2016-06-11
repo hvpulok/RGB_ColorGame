@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Pulok's Color Guess Game</title>
+	<link rel="stylesheet" type="text/css" href="ColorGame_style.css">
+	<!-- Bootstrap CDN link -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+
+<body class="myBody">
+<!-- Bootstrap javascript CDN link -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<h1 id="displayHeader">Pulok's Color Guessing Game <br> Guess Color Combination based on : <br><span class="displayPickedRGB">RGB(255, 255, 255)</span></h1>
+
+<div id="strip">
+	<button id="btnNewColors" class="actionButtons" >NEW COLORS</button>
+	<span id="gameStatus"></span>
+	<button id="btnEasyMode" class="actionButtons">EASY</button>
+	<button id="btnHardMode" class="buttonSelected actionButtons">HARD</button>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    	  <div class="col-xs-12 col-md-12 boxLayout">
+				<div class="squares"></div>
+				<div class="squares"></div>
+				<div class="squares"></div>
+				<div class="squares"></div>
+				<div class="squares"></div>
+				<div class="squares"></div>
+    	  </div>
+  </div>
+
+  <div class="row">
+  		<div class="col-xs-8 col-md-8 boxLayout">
+  		<h4>Instructions to Play the Game:</h4>
+  			<ul>
+  				<li>RGB means Red, Green, Blue. Each value ranges from 0 to 256.</li>
+  				<li>If R = 256, G = 0, B = 0, the combination will be Red color</li>
+  				<li>If R = 0, G = 256, B = 0, the combination will be Green color</li>
+  				<li>If R = 0, G = 0, B = 256, the combination will be Blue color</li>
+  				<li>Now if R= 256, G=100, B=1, the combination will be Redish+Greenish = yellowish color</li>
+  				<li>Look at the RGB figure to guess approximate color and click the square</li>
+  				
+  			</ul>
+		  		
+	  	</div>
+
+	  	<div class="col-xs-4 col-md-4 boxLayout">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AdditiveColor.svg/400px-AdditiveColor.svg.png">
+		</div>
+  </div>
+
+</div>
+
+
+
+
+
+<script type="text/javascript" src="ColorGame_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+.myBody{
+	background-color: #232323;
+	margin: 0px;	
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+#displayHeader{
+	margin: 0px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: steelblue;
+	color: white;
+	text-transform: uppercase;
+	height: auto;
+	text-align: center;
+	font-weight: normal;
+	font-size: 2em;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+.displayPickedRGB{
+	font-size: 2em;
+}
+
+#strip{
+	background-color: white;
+	text-align: center;
+	height: auto;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+.actionButtons{
+	height: 30px;
+	background-color: white;
+	border-style: none;
+	color: steelblue;
+	font-weight: bold;
+	font-size: 1em;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+	outline: none;
+}
+
+button:hover{
+	background-color: steelblue;
+	transition: all 0.3s;
+	color: white;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+}
+
+.buttonSelected{
+	background-color: steelblue;
+	color: white;
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.9);
+
+}
+
+#gameStatus{
+	padding: 0px 100px;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: arial;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.row{
+	/*border: 1px dashed red;*/
+	margin-top: 20px;
+	padding: 2%;
+	color: white;
+	height: 500px;
+	text-align: center;
+}
+
+.boxLayout{
+	margin: 0 auto;
+	height: 100%;
+	/*border: 1px dashed #ccc;*/
+	padding: 2%;
+
+}
+
+.squares{
+	background: red;
+	width: 31%;
+	height:50%;
+	float: left;
+	border-radius: 10px;
+	margin: 1%;
+	transition: all 0.4s;
+	box-shadow: 0px 0px 6px rgba(240,240,240,0.4);
+}
+
+img{
+	width: 100%;
+	text-align: right;
+}
+ul{
+	text-align: left;
+}
